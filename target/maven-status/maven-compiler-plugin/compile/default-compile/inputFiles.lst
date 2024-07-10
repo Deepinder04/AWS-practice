@@ -1,4 +1,3 @@
 /Users/deepinder.sidhu/Projects/AWS-practice/src/main/java/deep/inder/AWS/practice/AwsPracticeApplication.java
-/Users/deepinder.sidhu/Projects/AWS-practice/src/main/java/deep/inder/AWS/practice/config/S3PropertySourceApplicationListener.java
+/Users/deepinder.sidhu/Projects/AWS-practice/src/main/java/deep/inder/AWS/practice/config/S3PropertySourceConfig.java
 /Users/deepinder.sidhu/Projects/AWS-practice/src/main/java/deep/inder/AWS/practice/cron/CronConfig.java
-/Users/deepinder.sidhu/Projects/AWS-practice/src/main/java/deep/inder/AWS/practice/utlities/S3PropertiesLoader.java
