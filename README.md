@@ -6,7 +6,7 @@ Local setup -
 - Step 1 - Adding dependency to connect to AWS
 - Step 2 - Configure user's AWS Credentials using aws cli
 - Step 3 - Create a Configuration class to load the spring Environment from the property uploaded at a path on S3
-- Step 4 - Set up env variables and the run the application and run the application
+- Step 4 - Set up env variables(bucket name and path) and the run the application and run the application
 
 branch - s3EnvFile
 
