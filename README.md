@@ -20,7 +20,7 @@ be achieved. Resource - https://medium.com/@truongbui95/spring-boots-application
 Case - Loading the spring Environment from a file uploaded on S3 and picking the file based on the profile the application is ran with.
 
 -  Step 1 - Add listener at application startup, that listens for ApplicationEnvironmentPreparedEvent.
--  Step 2 - Override the onApplicationEvent method of ApplicationEnvironmentPreparedEvent to load the env using the property file from s3, use the active profile set with which the application
+-  Step 2 - Implement the of ApplicationListener interface with the ApplicationEnvironmentPreparedEventOverride as the generic type and override the onApplicationEvent method to load the env using the property file from s3, use the active profile set with which the application
   is ran in the path of the S3 file location.
 -  Step 3 - Create a config class that connects to S3 and gets the file.
 -  Step 4 - verify by setting different things in the file for different envs.
