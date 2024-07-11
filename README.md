@@ -12,7 +12,7 @@ branch - s3EnvFile
 
 2. Spring Boot’s Application Events
 During the startup of an a spring application there are several stages and at the start of each an event is triggered. By listening to these events a finegrained control over teh application can
-be achieved.
+be achieved. Resource - https://medium.com/@truongbui95/spring-boots-application-events-36ebe09e9313
 
  ApplicationEnvironmentPreparedEvent - For modifying property values, adding or removing configuration sources, activating specific profiles,
  or applying custom logic based on the environment’s state.
